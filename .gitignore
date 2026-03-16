@@ -1,0 +1,12 @@
+# Private config
+private.fish
+
+# Fish generated files
+fish_variables
+
+# fcitx5 generated files
+fcitx5/.config/fcitx5/conf/cached_layouts
+
+# Other CLI generated files
+fnm.fish
+rustup.fish
