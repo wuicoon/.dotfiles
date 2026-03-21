@@ -12,41 +12,44 @@ The setup script is not finished yet. Some configs may be incomplete or broken.
 
 ## Installation
 
-### 1. Clone this repo:
+### 1. Clone this repo
+
 ```bash
-$ git clone https://github.com/wuicoon/dotfiles.git
-$ cd .dotfiles 
+git clone https://github.com/wuicoon/dotfiles.git
+cd .dotfiles 
 ```
 
-### 2. Deploy dotfiles:
+### 2. Deploy dotfiles
+
 ```bash
-$ stow *
+stow *
 ```
 
 or install individual configs
 
 ```bash
-$ stow fcitx5
-$ stow fish
-$ stow kitty
-$ stow nvim
-$ stow tmux
+stow fcitx5
+stow fish
+stow kitty
+stow nvim
+stow tmux
 ```
 
 ⚠️ Some configs require additional dependencies which are not yet automated. Please be aware.
 
-
 ## Updating
 
 ### 1. Pull the latest changes
+
 ```bash
-$ git pull
+git pull
 ```
 
 ### 2. Delete the repo
+
 ```bash
-$ cd ..
-$ rm -rf .dotfiles
+cd ..
+rm -rf .dotfiles
 ```
 
 ## Uninstallation
@@ -54,14 +57,16 @@ $ rm -rf .dotfiles
 Since the dotfiles are managed with [GNU Stow](https://www.gnu.org/software/stow/), uninstalling simply removes the symbolic links created in the home directory.
 
 ### 1. Remove all configs
+
 ```bash
-$ cd .dotfiles
-$ stow -D *
+cd .dotfiles
+stow -D *
 ```
 
 ### 2. Restow configs
+
 ```bash
-$ stow -R *
+stow -R *
 ```
 
 ## TODO
@@ -71,7 +76,6 @@ $ stow -R *
 - [ ] List and document dependencies wtih details
 - [ ] Test setup on a clean system
 - [ ] idk
-
 
 ## Contributing
 
